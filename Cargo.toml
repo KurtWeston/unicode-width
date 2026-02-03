@@ -1,0 +1,18 @@
+[package]
+name = "unicode-width"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+description = "Calculate the true display width of Unicode strings for proper terminal alignment"
+repository = "https://github.com/yourusername/unicode-width"
+
+[[bin]]
+name = "unicode-width"
+path = "src/main.rs"
+
+[dependencies]
+unicode-width = "0.1"
+clap = { version = "4.4", features = ["derive"] }
+
+[dev-dependencies]
